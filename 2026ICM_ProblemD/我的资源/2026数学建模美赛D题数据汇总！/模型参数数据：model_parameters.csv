@@ -1,0 +1,27 @@
+parameter,symbol,suggested_value,min_value,max_value,unit,category,source,notes
+Salary Cap 2025,S_cap,1507100,1507100,1507100,USD,financial,Her Hoop Stats,Hard cap - no exceptions
+Salary Floor 2025,S_floor,1261440,1261440,1261440,USD,financial,Her Hoop Stats,Teams must meet by season end
+Max Salary 2025,s_max,249244,249244,249244,USD,financial,Spotrac,Standard maximum
+Supermax 2025,s_supermax,256822,249244,256822,USD,financial,Spotrac,For eligible players
+Roster Size Min,N_min,11,11,11,players,roster,CBA,Must maintain throughout season
+Roster Size Max,N_max,12,12,12,players,roster,CBA,Standard roster limit
+Protected Veterans Max,N_protected,6,6,6,players,roster,CBA,Guaranteed contracts
+Salary Annual Increase,delta_s,0.03,0.03,0.03,pct,financial,CBA,Non-compounding
+Ticket Price Elasticity,eta,-1.0,-1.5,-0.5,unitless,demand,Literature,Typical sports value
+Win Rate Revenue Impact,beta_win,0.08,0.05,0.12,per 10% WP,revenue,Estimate,Revenue increase per 10% win rate
+Discount Rate,r,0.09,0.06,0.12,annual,financial,Industry,Sports asset typical
+Valuation Multiple,mult_val,12,8,15,x revenue,valuation,Sportico 2025,Higher than NBA/NWSL
+Revenue Growth Rate Short Term,g_revenue_st,0.25,0.15,0.35,annual,growth,Estimate,2024-2026 expected
+Revenue Growth Rate Long Term,g_revenue_lt,0.12,0.08,0.18,annual,growth,Estimate,2027+ expected
+Injury Probability Per Season,p_injury,0.20,0.12,0.30,per season,risk,Estimate,Varies by position/age
+Games Missed If Injured,E_games_missed,8,3,20,games,risk,Estimate,Average
+Season Length 2025,N_games,44,44,44,games,season,WNBA,Increased from 40
+Playoff Teams,N_playoff,8,8,8,teams,season,WNBA,Top 8 qualify
+Brand Value Pct of Valuation,pct_brand,0.35,0.20,0.50,pct,valuation,Estimate,Intangible value
+Season Ticket Conversion Rate,conv_season,0.25,0.10,0.40,pct,demand,Estimate,Single game to season
+Player Age Peak Performance,age_peak,27,25,29,years,performance,Literature,Athletic prime
+Performance Decay Rate,kappa,0.02,0.01,0.04,per year from peak,performance,Literature,Gaussian decay parameter
+Commercial Value Weight,alpha,0.70,0.50,0.90,unitless,value,Tunable,Performance vs commercial
+Expansion Draft Protection Limit,N_protect_exp,6,6,6,players,expansion,CBA,Per team in expansion draft
+Expansion Fee 2025,fee_exp_2025,50000000,50000000,75000000,USD,expansion,WNBA,Golden State/Toronto
+Expansion Fee 2028+,fee_exp_2028,250000000,250000000,250000000,USD,expansion,WNBA,Cleveland/Detroit/Philly
