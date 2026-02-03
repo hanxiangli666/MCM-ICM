@@ -35,7 +35,7 @@ import warnings         # 用于控制警告信息的显示
 import os               # 用于处理文件路径
 from copy import deepcopy # 用于深度复制（复制一份完全独立的数据，修改不影响原件）
 
-# 忽略运行时的警告信息（比如版本更新提示），让输出界面更干净
+# 忽略运行时的警告信息（比如版本更新提示），让输出界面更干净 更美观
 warnings.filterwarnings('ignore')
 
 # 定义一个类，把所有功能封装在一起，方便管理
