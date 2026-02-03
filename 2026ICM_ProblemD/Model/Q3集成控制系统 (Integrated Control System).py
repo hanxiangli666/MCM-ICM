@@ -996,6 +996,6 @@ if __name__ == "__main__":
         # 2. 实例化 Q2 数据处理
         q2_proc = DataProcessor(f_stats, f_salary)
         
-        # 3. 实例化 Q3 控制器并运行
+        # 3. 实例化 Q3  控制器并运行
         controller = Expansion_Strategy_Controller(q1, q2_proc)
         controller.run_dynamic_adjustment()
