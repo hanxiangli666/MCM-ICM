@@ -986,7 +986,7 @@ if __name__ == "__main__":
     f_stats = '30_MASTER_PLAYER_GAME.xlsx'
     f_salary = 'player_salaries_2025.xlsx'
     
-    # 检查文件是否存在
+    # 检查文件是否存在 不存在提示错误
     if not os.path.exists(f_stats):
         print(f"Error: 缺少 {f_stats}，无法运行真实数据分析。")
     else:
